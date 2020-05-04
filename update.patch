@@ -1,0 +1,36 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 5ba9ffb502b1872001cca10738a0d67d551e4991)
++++ .idea/workspace.xml	(date 1588594897793)
+@@ -218,6 +218,10 @@
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+     <state x="397" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588560938358" />
++    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1588594892132">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588594892132" />
+     <state x="421" y="61" key="FileChooserDialogImpl" timestamp="1588592639905">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+Index: jpa-day3-spec/jpa-day3-spec.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jpa-day3-spec/jpa-day3-spec.iml	(revision 5ba9ffb502b1872001cca10738a0d67d551e4991)
++++ jpa-day3-spec/jpa-day3-spec.iml	(date 1588594897781)
+@@ -5,7 +5,9 @@
+       <configuration>
+         <setting name="validation-enabled" value="true" />
+         <setting name="provider-name" value="Hibernate" />
+-        <datasource-mapping />
++        <datasource-mapping>
++          <factory-entry name="Entities" />
++        </datasource-mapping>
+         <naming-strategy-map />
+       </configuration>
+     </facet>
