@@ -14,7 +14,7 @@ import java.util.List;
  *         该接口封装了基本的CRUD操作
  *     JpaSpecificationExecutor<操作的实体类类型>
  *         该接口封装了复杂查询，如分页等
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-04-10:59
  */
 public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecificationExecutor<Customer> {

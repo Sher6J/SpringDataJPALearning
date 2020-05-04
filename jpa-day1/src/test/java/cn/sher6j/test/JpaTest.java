@@ -11,7 +11,7 @@ import javax.persistence.Persistence;
 
 /**
  * 注意：真正和数据库打交道的对象都是EntityManager
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-03-19:33
  */
 public class JpaTest {

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 测试jpql查询
  *     jpql不支持 select * 的写法，但支持select的其他写法
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-04-8:42
  */
 public class JpqlTest {
@@ -30,7 +30,7 @@ public class JpqlTest {
         tx.begin();
 
         //3.查询全部
-//        String jpql = "from cn.sher6j.domain.Customer";
+//        String jpql = "from cn.cn.sher6j.domain.Customer";
         String jpql = "from Customer";
         Query query = em.createQuery(jpql);//创建Query查询对象，query对象才是执行jpql的对象
         //发送查询，并封装结果集

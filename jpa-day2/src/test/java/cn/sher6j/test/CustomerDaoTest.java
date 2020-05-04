@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-04-11:04
  */
 @RunWith(SpringJUnit4ClassRunner.class)  //声明spring提供的单元测试环境

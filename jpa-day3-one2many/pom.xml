@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.cn.sher6j</groupId>
-    <artifactId>jpa-day3-spec</artifactId>
+    <groupId>cn.sher6j</groupId>
+    <artifactId>jpa-day3-one2many</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -152,5 +152,6 @@
         </dependency>
         <!-- el end -->
     </dependencies>
+
 
 </project>

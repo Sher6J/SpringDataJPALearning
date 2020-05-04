@@ -5,7 +5,7 @@ import javax.persistence.*;
 /**
  * 1.实体类和表的映射关系
  * 2.类中属性和表中字段的映射关系
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-04-10:49
  */
 @Entity

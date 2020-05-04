@@ -17,7 +17,7 @@ import javax.persistence.criteria.*;
 import java.util.List;
 
 /**
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-04-18:56
  */
 @RunWith(SpringJUnit4ClassRunner.class)

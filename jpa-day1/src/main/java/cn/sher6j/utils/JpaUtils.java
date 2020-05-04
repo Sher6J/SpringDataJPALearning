@@ -10,7 +10,7 @@ import javax.persistence.Persistence;
  *
  * 第一次访问getEntityManager方法，经过静态代码块创建一个factory对象，再调用方法创建一个EntityManager对象
  * 第二次访问getEntityManager方法，直接通过一个已经创建好的factory对象，创建EntityManager对象
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-03-20:18
  */
 public class JpaUtils {

@@ -13,7 +13,7 @@ import javax.persistence.*;
  *         2. 实体类中属性和表中字段的映射关系
  *
  *
- * @author sher6j
+ * @author cn.sher6j
  * @create 2020-05-03-19:14
  */
 @Entity
