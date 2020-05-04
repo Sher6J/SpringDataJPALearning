@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b875856-1558-4702-ac7b-84aef7119968" name="Default Changelist" comment="" />
+    <list default="true" id="9b875856-1558-4702-ac7b-84aef7119968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +31,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,6 +60,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1bORNdYOhG4n0QJlxP5LTF1LzKI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,64 +71,25 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jpa-day3-spec" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry">
-    <configuration name="JpqlTest.testFindAllUseSqlByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sher6j.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindAllUseSqlByCondition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testFindByCustName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sher6j.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindByCustName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testFindByCustNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sher6j.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindByCustNameLike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.sher6j.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\jpa-learning\jpa-day3\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpecTest.testSpec3">
     <configuration name="JpqlTest.testFindByCustNameLikeAndCustIndustry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-day2" />
       <extension name="coverage">
@@ -133,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testFingByCustName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day2" />
+    <configuration name="SpecTest.testSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-spec" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sher6j.test.*" />
@@ -142,8 +115,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.sher6j.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFingByCustName" />
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecTest.testSpec2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-spec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecTest.testSpec3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-spec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecTest.testSpec4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-spec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sher6j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sher6j.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sher6j.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpecTest.testSpec3" />
+        <item itemvalue="JUnit.SpecTest.testSpec4" />
+        <item itemvalue="JUnit.SpecTest.testSpec2" />
+        <item itemvalue="JUnit.SpecTest.testSpec" />
         <item itemvalue="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry" />
-        <item itemvalue="JUnit.JpqlTest.testFindByCustNameLike" />
-        <item itemvalue="JUnit.JpqlTest.testFindByCustName" />
-        <item itemvalue="JUnit.JpqlTest.testFingByCustName" />
-        <item itemvalue="JUnit.JpqlTest.testFindAllUseSqlByCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +193,8 @@
       <workItem from="1588501122244" duration="9600000" />
       <workItem from="1588552773094" duration="4270000" />
       <workItem from="1588559452640" duration="4003000" />
-      <workItem from="1588581515660" duration="5651000" />
+      <workItem from="1588581515660" duration="9677000" />
+      <workItem from="1588592549446" duration="724000" />
     </task>
     <servers />
   </component>
@@ -196,45 +218,53 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="397" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588560938358" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1588501148538">
+    <state x="421" y="61" key="FileChooserDialogImpl" timestamp="1588592639905">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588501148538" />
-    <state width="1237" height="363" key="GridCell.Tab.0.bottom" timestamp="1588588525394">
+    <state x="421" y="61" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588592639905" />
+    <state width="1237" height="363" key="GridCell.Tab.0.bottom" timestamp="1588592672081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="363" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588588525394" />
-    <state width="1237" height="363" key="GridCell.Tab.0.center" timestamp="1588588525394">
+    <state width="1237" height="363" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588592672081" />
+    <state width="1237" height="363" key="GridCell.Tab.0.center" timestamp="1588592672081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="363" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588588525394" />
-    <state width="1237" height="363" key="GridCell.Tab.0.left" timestamp="1588588525393">
+    <state width="1237" height="363" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588592672081" />
+    <state width="1237" height="363" key="GridCell.Tab.0.left" timestamp="1588592672081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="363" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588588525393" />
-    <state width="1237" height="363" key="GridCell.Tab.0.right" timestamp="1588588525394">
+    <state width="1237" height="363" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588592672081" />
+    <state width="1237" height="363" key="GridCell.Tab.0.right" timestamp="1588592672081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="363" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588588525394" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1588561685973">
+    <state width="1237" height="363" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588592672081" />
+    <state x="287" y="38" key="NewModule_or_Project.wizard" timestamp="1588592642577">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588561685973" />
+    <state x="287" y="38" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1588592642577" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1588592648152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588592648152" />
     <state x="362" y="82" width="576" height="524" key="StructurePopup" timestamp="1588565252522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="576" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1588565252522" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1588581518223">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1588592548521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588581518223" />
-    <state x="28" y="0" key="new project wizard" timestamp="1588558911070">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588592548521" />
+    <state x="316" y="132" key="git4idea.merge.GitPullDialog" timestamp="1588594861740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1588558911070" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588586741799">
+    <state x="316" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1588594861740" />
+    <state x="28" y="0" key="new project wizard" timestamp="1588589599191">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588586741799" />
+    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1588589599191" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588590892068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588590892068" />
   </component>
 </project>

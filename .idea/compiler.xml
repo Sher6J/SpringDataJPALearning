@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jpa-day1" />
         <module name="jpa-day2" />
+        <module name="jpa-day1" />
+        <module name="jpa-day3-spec" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jpa-day1" target="8" />
-      <module name="jpa-day2" target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="jpa-day1" target="1.8" />
+      <module name="jpa-day2" target="1.8" />
+      <module name="jpa-day3-spec" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
