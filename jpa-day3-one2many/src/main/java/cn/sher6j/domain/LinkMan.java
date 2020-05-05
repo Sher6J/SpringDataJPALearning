@@ -46,6 +46,14 @@ public class LinkMan {
     @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
     private Customer customer;
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     public Long getLkmId() {
         return lkmId;
     }

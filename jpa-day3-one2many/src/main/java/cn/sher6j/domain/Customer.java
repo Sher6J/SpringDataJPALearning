@@ -49,8 +49,17 @@ public class Customer {
      *              referencedColumnName：参照的主表的主键字段名称
      * 在客户实体类上（一的一方）配置了外键的配置，所有对于客户而言，也具备了维护外键的作用
      */
-    @OneToMany(targetEntity = LinkMan.class)
-    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+//    @OneToMany(targetEntity = LinkMan.class)
+//    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+    /*
+    放弃维护外键，只声明关系，mappedBy：对方配置关系的属性名称
+    cascade：配置级联
+        CascadeType.ALL         所有
+                    MERGE       更新
+                    PERSIST     保存
+                    REMOVE      删除
+     */
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
     private Set<LinkMan> linkMEN = new HashSet<>();
 
     public Set<LinkMan> getLinkMEN() {
